@@ -29,8 +29,4 @@ Since this project relies on packaged workbook formats for distribution, you can
 * Alternatively, you can view the workbook online if hosted on a Tableau Public Profile.
 
 ### Opening the Project Locally
-1. Clone this repository to your local machine:
-   ```bash
-   git clone [https://github.com/CasK05-droid/Data_Visualisation--using-tableau-.git](https://github.com/CasK05-droid/Data_Visualisation--using-tableau-.git)
-
-2. Alternatively you can download Tableau file.
+1. Download Tableau file.
