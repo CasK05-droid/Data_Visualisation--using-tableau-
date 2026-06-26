@@ -31,4 +31,6 @@ Since this project relies on packaged workbook formats for distribution, you can
 ### Opening the Project Locally
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone [https://github.com/CasK05-droid/Data_Visualisation--using-tableau-.git](https://github.com/CasK05-droid/Data_Visualisation--using-tableau-.git)
+
+2. Alternatively you can download Tableau file.
