@@ -1,28 +1,28 @@
 # Renewable Energy Adoption & Climate Change Response Visualization
 
 ## Description
-[cite_start]This project focuses on the data integration, dimensional modeling, and interactive visualization of a synthesized **Renewable Energy Adoption Dataset**[cite: 10, 21]. [cite_start]The dataset compiles authoritative global energy metrics from sources such as the International Energy Agency (IEA), the World Bank, and the United Nations Environment Programme (UNEP)[cite: 13].
+This project focuses on the data integration, dimensional modeling, and interactive visualization of a synthesized **Renewable Energy Adoption Dataset**[cite: 10, 21]. The dataset compiles authoritative global energy metrics from sources such as the International Energy Agency (IEA), the World Bank, and the United Nations Environment Programme (UNEP)[cite: 13].
 
-[cite_start]The core objective of this project is to transform raw, multi-dimensional data into actionable business intelligence by evaluating trends in renewable investments, energy production capacity, and subsequent job creation across varying geographic regions over time[cite: 11, 14].
+The core objective of this project is to transform raw, multi-dimensional data into actionable business intelligence by evaluating trends in renewable investments, energy production capacity, and subsequent job creation across varying geographic regions over time[cite: 11, 14].
 
 ### Background & Architecture
-[cite_start]To support clean dashboard performance and structured data analytical capabilities, this project implements a complete data warehouse design workflow[cite: 30, 33]:
-* [cite_start]**Dimensional Modeling:** A Star Schema framework separating informational attributes into specialized dimension tables surrounding a central Fact Table[cite: 27].
-* [cite_start]**Data Mart Design:** Targeted optimization of data structures to answer two critical operational queries efficiently[cite: 29]:
-    1. [cite_start]*Total Energy Production by Source by Geography* [cite: 16]
-    2. [cite_start]*Trends in Energy Production by Year by Source Type* 
-* [cite_start]**Interactive Visualization:** A functional Tableau Dashboard exploring these data marts dynamically via custom filters, tooltips, and calculated fields[cite: 32, 33].
+To support clean dashboard performance and structured data analytical capabilities, this project implements a complete data warehouse design workflow[cite: 30, 33]:
+* **Dimensional Modeling:** A Star Schema framework separating informational attributes into specialized dimension tables surrounding a central Fact Table[cite: 27].
+* **Data Mart Design:** Targeted optimization of data structures to answer two critical operational queries efficiently[cite: 29]:
+    1. *Total Energy Production by Source by Geography* [cite: 16]
+    2. *Trends in Energy Production by Year by Source Type* 
+* **Interactive Visualization:** A functional Tableau Dashboard exploring these data marts dynamically via custom filters, tooltips, and calculated fields[cite: 32, 33].
 
 ### Key Features
-* [cite_start]**Geographic Analysis:** Geographic mapping of total energy production segmented by specific renewable types (e.g., Solar, Wind, Hydro)[cite: 14, 16].
-* [cite_start]**Temporal Trend Tracking:** Line and area chart timelines analyzing production velocity and investment impacts over sequential years[cite: 14, 17].
-* [cite_start]**Interactive Drills:** User-driven dashboard filtering capabilities to slice data down by specific locations or energy inputs[cite: 14, 33].
+* **Geographic Analysis:** Geographic mapping of total energy production segmented by specific renewable types (e.g., Solar, Wind, Hydro)[cite: 14, 16].
+* **Temporal Trend Tracking:** Line and area chart timelines analyzing production velocity and investment impacts over sequential years[cite: 14, 17].
+* **Interactive Drills:** User-driven dashboard filtering capabilities to slice data down by specific locations or energy inputs[cite: 14, 33].
 
 ---
 
 ## Usage
 
-[cite_start]Since this project relies on packaged workbook formats for distribution, you can interact with the visualizations through the following workflows:
+Since this project relies on packaged workbook formats for distribution, you can interact with the visualizations through the following workflows:
 
 ### Prerequisites
 * **Tableau Desktop** (v2024.1 or later recommended) OR **Tableau Public** (Free)
